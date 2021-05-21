@@ -2,11 +2,4 @@
 
 Test-git
 
-Hello!
-
-Yes！
-
-Thank!
-
-yes
-!
+Success!
