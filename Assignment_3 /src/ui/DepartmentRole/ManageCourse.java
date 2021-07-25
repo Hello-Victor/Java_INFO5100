@@ -55,7 +55,7 @@ public class ManageCourse extends BaseJPanel {
         model.setRowCount(0);
 
         for (Course c : department.getCourseCatalog().getCourseMap().values()) {
-            model.addRow(new Object[]{c, c.getCourseNumber(), c.getCredits(), c.getCoursePrice(), c.getCourseOffers().size()});
+            model.addRow(new Object[]{c, c.getName(), c.getCredits(), c.getCoursePrice(), c.getCourseOffers().size()});
         }
 
         this.jTable1.setRowHeight(30);
@@ -93,7 +93,7 @@ public class ManageCourse extends BaseJPanel {
                 {null, null, null, null, null}
             },
             new String [] {
-                "Name", "Number", "Credit Hour", "Price", "Course Offers"
+                "Number", "Name", "Credit Hour", "Price", "Course Offers"
             }
         ));
         jScrollPane1.setViewportView(jTable1);

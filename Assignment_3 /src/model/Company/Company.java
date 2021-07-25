@@ -88,7 +88,7 @@ public class Company extends Profile {
             sum += ph.getAverageSalary();
             n++;
         }
-        return sum / n;
+        return n == 0 ? 0 : sum / n;
     }
 
     public Double getAveragePromotionTimes() {

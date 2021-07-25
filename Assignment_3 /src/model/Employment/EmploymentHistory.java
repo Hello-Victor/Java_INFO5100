@@ -88,9 +88,8 @@ public class EmploymentHistory {
             if (employments.size() == 0) {
                 studentProfile.setEmploymenthistory(null);
             }
-        } else {
-            lastPromotionHistory.removeEmployment(lastPromotionHistory.getLastPosition());
         }
+        lastPromotionHistory.removeEmployment(lastPromotionHistory.getLastPosition());
     }
 
     public void removeLastCompany() {

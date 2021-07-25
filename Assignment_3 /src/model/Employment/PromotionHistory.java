@@ -23,6 +23,7 @@ public class PromotionHistory {
     TreeSet<Employment> promotionHistorySet = new TreeSet<Employment>(Comparator.comparing(Employment::getYear));
 
     public PromotionHistory(EmploymentHistory employmentHistory, EmployerProfile employerProfile, StudentProfile studentProfile, int startYear, String startTitle, int startSalary) {
+        this.employmentHistory = employmentHistory;
         this.employerProfile = employerProfile;
         this.studentProfile = studentProfile;
         promotionHistorySet.add(new Employment(employerProfile, startYear, startTitle, startSalary));

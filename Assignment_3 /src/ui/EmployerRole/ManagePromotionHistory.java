@@ -175,6 +175,9 @@ public class ManagePromotionHistory extends BaseJPanel {
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
         promotionHistory.getEmploymentHistory().removeLastEmployment();
         refreshTable();
+        if (promotionHistory.getPromotionHistorySet().size() == 0) {
+            backAction();
+        }
     }//GEN-LAST:event_jButton7ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed

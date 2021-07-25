@@ -57,7 +57,7 @@ public class Academy extends BaseJPanel {
                 Seat seat = seatAssignment.getSeat();
                 CourseOffer courseoffer = seat.getCourseoffer();
                 Course course = courseoffer.getCourse();
-                String grade = seat.getGrade() == null ? "N/A" : String.format("%.2f", course.getGrade());
+                String grade = seat.getGrade() == null ? "N/A" : String.format("%.2f", seat.getGrade());
                 String feedback = seat.getFeedback() == null ? "N/A" : String.format("%.2f", seat.getFeedback().getScore());
                 model.addRow(new Object[]{cl.getSemester(), course.getName(), seatAssignment, courseoffer.getFacultyProfile().getPerson().getLastname(),
                     course.getCredits(), course.getCoursePrice(), grade, feedback});
