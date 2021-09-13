@@ -2,7 +2,6 @@ Northeastern University INFO5100 2021 summer Final Project
 =======================
 A Java Swing Application inspiration using Netbeans and Swing framework. Hover through tiles and get a nice look.
 
-![alt text](https://github.com/aeloyq/INFO5100FinalProject/blob/master/avator.png)
 
 Team Member
 -----------------------
