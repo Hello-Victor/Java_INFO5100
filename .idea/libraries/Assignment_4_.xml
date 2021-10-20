@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Assignment_4 ">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Assignment_4 /AbsoluteLayout.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Assignment_4 /db4o-8.0.184.15484-all-java5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
