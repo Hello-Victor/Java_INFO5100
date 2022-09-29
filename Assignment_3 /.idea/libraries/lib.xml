@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/jdatepicker-1.3.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/json-20210307.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/automaton-1.11-8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/snakeyaml-1.23-android.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/generex-1.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-lang3-3.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javafaker-1.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
